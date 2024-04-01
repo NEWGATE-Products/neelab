@@ -1,5 +1,6 @@
 {
   "name": "neelab_curriculum_lp",
+  "homepage": "https://NEWGATE-Products.github.io/neelab_curriculum_lp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "rm -rf docs && pnpm run build && mv build docs",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
